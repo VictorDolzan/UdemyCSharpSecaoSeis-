@@ -7,11 +7,20 @@ using System.Globalization;
 
 namespace CSharpSecaoSeis
 {
-    class Program
+    class Program 
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Iniciando a seção 6 do curso de C# da Udemy");
+            Point p;
+            p.x = 10;
+            p.y = 20;
+            Console.WriteLine(p);
+            p = new Point();
+            Console.WriteLine(p);
+
+            Console.WriteLine("A partir de agora são os testes com Nullable: ");
+
+            NullableExample.ExecutarNullableExample();
         }
     }
 }
