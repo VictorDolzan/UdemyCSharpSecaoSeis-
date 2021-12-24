@@ -24,7 +24,8 @@ namespace CSharpSecaoSeis
 
             Console.WriteLine("Testes com Vetor: ");
             //Vetor.ExecutarVetor();
-            SegundoVetor.ExecutarSegundoVetor();
+            //SegundoVetor.ExecutarSegundoVetor();
+            ExercicioVetorPensao.ExecutarExercicioPensao();
         }
     }
 }
