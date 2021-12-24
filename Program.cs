@@ -18,9 +18,13 @@ namespace CSharpSecaoSeis
             p = new Point();
             Console.WriteLine(p);
 
-            Console.WriteLine("A partir de agora são os testes com Nullable: ");
+            // Console.WriteLine("A partir de agora são os testes com Nullable: ");
 
-            NullableExample.ExecutarNullableExample();
+            // NullableExample.ExecutarNullableExample();
+
+            Console.WriteLine("Testes com Vetor: ");
+            //Vetor.ExecutarVetor();
+            SegundoVetor.ExecutarSegundoVetor();
         }
     }
 }
