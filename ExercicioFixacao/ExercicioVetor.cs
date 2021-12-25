@@ -11,34 +11,31 @@ namespace CSharpSecaoSeis
     {
         public static void ExecutarExercicioPensao()
         {
+            Console.Write("Quantos quartos serão alugados: ");
+            int quartosAlugados = int.Parse(Console.ReadLine());
+
             Students[] vect = new Students[10];
 
-            Console.Write("Quantos quartos serão alugados? ");
-            int numRooms = int.Parse(Console.ReadLine());
-            
-
-            for(int cont = 1; cont <= numRooms; cont++)
+            for(int cont = 0; cont < quartosAlugados; cont++)
             {
-                Console.WriteLine();
-                Console.WriteLine($"Aluguel #{cont}:");
                 Console.Write("Nome: ");
-                string NomeStudent = Console.ReadLine();
+                string studentName = Console.ReadLine();
                 Console.Write("Email: ");
-                string EmailSudent = Console.ReadLine();
+                string studentEmail = Console.ReadLine();
                 Console.Write("Quarto: ");
-                int quarto = int.Parse(Console.ReadLine());
-                vect[quarto] = new Students(NomeStudent, EmailSudent);                 
+                int quartoEscolhido = int.Parse(Console.ReadLine());
+                vect[quartoEscolhido] = new Students(studentName, studentEmail);                                           
             }
 
             Console.WriteLine();
-            Console.WriteLine("Quartos que estão ocupados: ");
-            for(int cont = 0; cont < 10; cont++)
+            Console.WriteLine("Quartos ocupados: ");
+            for(int i = 0; i < 10; i++)
             {
-                if(vect[cont] != null)
+                if(vect[i] != null)
                 {
-                    Console.WriteLine(cont + ": " + vect[cont]);
+                    Console.WriteLine(i + ": " + vect[i]);
                 }
-            }
+            }            
         }
     }
 }
