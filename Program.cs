@@ -26,8 +26,11 @@ namespace CSharpSecaoSeis
             //Vetor.ExecutarVetor();
             //SegundoVetor.ExecutarSegundoVetor();
             //ExercicioVetorPensao.ExecutarExercicioPensao();
-            Console.WriteLine("Testes com Params, REF e OUT: ");
-            Calculator.ExecutarCalculator();
+            //Console.WriteLine("Testes com Params, REF e OUT: ");
+            //Calculator.ExecutarCalculator();
+
+            Console.WriteLine("Testes com Laço ForEach: ");
+            LacoForEach.ExecutarLacoForEach();
         }
     }
 }
