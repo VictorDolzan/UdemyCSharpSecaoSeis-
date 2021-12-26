@@ -22,10 +22,12 @@ namespace CSharpSecaoSeis
 
             // NullableExample.ExecutarNullableExample();
 
-            Console.WriteLine("Testes com Vetor: ");
+            //Console.WriteLine("Testes com Vetor: ");
             //Vetor.ExecutarVetor();
             //SegundoVetor.ExecutarSegundoVetor();
-            ExercicioVetorPensao.ExecutarExercicioPensao();
+            //ExercicioVetorPensao.ExecutarExercicioPensao();
+            Console.WriteLine("Testes com Params: ");
+            Calculator.ExecutarCalculator();
         }
     }
 }
