@@ -32,8 +32,11 @@ namespace CSharpSecaoSeis
             // Console.WriteLine("Testes com Laço ForEach: ");
             // LacoForEach.ExecutarLacoForEach();
 
-            Console.WriteLine("Testes com Listas: ");
-            Listas.ExecutarListas();
+            // Console.WriteLine("Testes com Listas: ");
+            // Listas.ExecutarListas();
+
+            Console.WriteLine("Exercicio Fixação Lista: ");
+            ExercicioFixacaoLista.ExecutarExercicioLista();
         }
     }
 }
