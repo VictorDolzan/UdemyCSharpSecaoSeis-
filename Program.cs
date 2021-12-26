@@ -26,7 +26,7 @@ namespace CSharpSecaoSeis
             //Vetor.ExecutarVetor();
             //SegundoVetor.ExecutarSegundoVetor();
             //ExercicioVetorPensao.ExecutarExercicioPensao();
-            Console.WriteLine("Testes com Params: ");
+            Console.WriteLine("Testes com Params, REF e OUT: ");
             Calculator.ExecutarCalculator();
         }
     }
