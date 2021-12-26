@@ -29,8 +29,11 @@ namespace CSharpSecaoSeis
             //Console.WriteLine("Testes com Params, REF e OUT: ");
             //Calculator.ExecutarCalculator();
 
-            Console.WriteLine("Testes com Laço ForEach: ");
-            LacoForEach.ExecutarLacoForEach();
+            // Console.WriteLine("Testes com Laço ForEach: ");
+            // LacoForEach.ExecutarLacoForEach();
+
+            Console.WriteLine("Testes com Listas: ");
+            Listas.ExecutarListas();
         }
     }
 }
