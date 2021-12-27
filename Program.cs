@@ -40,7 +40,8 @@ namespace CSharpSecaoSeis
 
             Console.WriteLine("Exercicio Matriz: ");
             //Matriz.ExecutarMatriz();
-            ExercicioMatriz.ExecutarExercicioResolvidoMatriz();
+            //ExercicioMatriz.ExecutarExercicioResolvidoMatriz();
+            ExercicioFixacaoMatriz.ExecutarExercicioFixacaoMatriz();
         }
     }
 }
