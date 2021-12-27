@@ -50,8 +50,7 @@ namespace CSharpSecaoSeis
             foreach(Employee obj in employeesList)
             {
                 Console.WriteLine(obj);
-            }            
-           
+            }       
         }
     }
 }

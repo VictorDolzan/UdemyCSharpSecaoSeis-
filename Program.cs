@@ -11,12 +11,12 @@ namespace CSharpSecaoSeis
     {
         public static void Main(string[] args)
         {
-            Point p;
-            p.x = 10;
-            p.y = 20;
-            Console.WriteLine(p);
-            p = new Point();
-            Console.WriteLine(p);
+            // Point p;
+            // p.x = 10;
+            // p.y = 20;
+            // Console.WriteLine(p);
+            // p = new Point();
+            // Console.WriteLine(p);
 
             // Console.WriteLine("A partir de agora são os testes com Nullable: ");
 
@@ -35,8 +35,11 @@ namespace CSharpSecaoSeis
             // Console.WriteLine("Testes com Listas: ");
             // Listas.ExecutarListas();
 
-            Console.WriteLine("Exercicio Fixação Lista: ");
-            ExercicioFixacaoLista.ExecutarExercicioLista();
+            // Console.WriteLine("Exercicio Fixação Lista: ");
+            // ExercicioFixacaoLista.ExecutarExercicioLista();
+
+            Console.WriteLine("Exercicio Matriz: ");
+            Matriz.ExecutarMatriz();
         }
     }
 }
